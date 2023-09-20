@@ -1,0 +1,193 @@
+h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #04AA6D;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.menu {
+float: left;
+width: 20%;
+text-align: center;
+}
+
+.menu a {
+background-color: #18171704;
+padding: 8px;
+margin-top: 7px;
+display: block;
+width: 100%;
+color: black;
+}
+
+.main {
+float: left;
+width: 60%;
+padding: 0 20px;
+}
+
+.right {
+background-color: #bc7d7d00;
+float: left;
+width: 20%;
+padding: 15px;
+margin-top: 7px;
+text-align: center;
+}
+
+.menu, .main, .right, .home {
+  width: 100%;
+  background-color:#0f1110;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
+
+.column {
+float: left;
+width: 33.33%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('/assets/images/images/football match.jpg');
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table.blueTable {
+border: 1px solid #1C6EA4;
+background-color: #EEEEEE;
+width: 100%;
+text-align: left;
+border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+border: 1px solid #AAAAAA;
+padding: 3px 2px;
+}
+table.blueTable tbody td {
+font-size: 13px;
+}
+
+table.blueTable tr:nth-child(even) {
+background: #aab3e7;
+}
+table.blueTable thead {
+background: #1C6EA4;
+background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+font-size: 15px;
+font-weight: bold;
+color: #100f0f;
+border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+border-left: none;
+}
+
+table.blueTable tfoot {
+font-size: 14px;
+font-weight: bold;
+color: #0f0e0e;
+background: #D0E4F5;
+background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+font-size: 14px;
+}
+table.blueTable tfoot .links {
+text-align: right;
+}
+table.blueTable tfoot .links a{
+display: inline-block;
+background: #1C6EA4;
+color: #151414;
+padding: 2px 8px;
+border-radius: 5px;
+}
+video {
+width: 100%;
+height: auto;
+}
+
+input[type=text],textarea {
+width: 100%; 
+padding: 12px;  
+border: 1px solid #ccc; 
+border-radius: 4px; 
+box-sizing: border-box; 
+margin-top: 6px; 
+margin-bottom: 16px; 
+resize: vertical
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
